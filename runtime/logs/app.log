@@ -1,0 +1,3370 @@
+2022-12-05 13:00:21 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-05 13:00:19 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3297,unix/rafat-syarah:/tmp/.ICE-unix/3297'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3258'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/dd6ead6f_f760_40f7_a9bb_b9e9ed50660f'
+    'INVOCATION_ID' => '6f912630fc7841e79e481e6aa7326da6'
+    'MANAGERPID' => '3065'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.165'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=c84d0ea383d3011ae3ac82ab638d907f'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:62334'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=c84d0ea383d3011ae3ac82ab638d907f'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670245219.3486
+    'REQUEST_TIME' => 1670245219
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:15:05 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "watcher". in /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#1 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#2 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#3 /home/rafat/Syarah/CoreSystem/CoreMainApi/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "watcher". in /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#1 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#2 /home/rafat/Syarah/CoreSystem/CoreMainApi/yii(20): yii\base\Application->run()
+#3 {main}
+2022-12-12 08:15:05 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/9f86df75_0d93_41e0_837d_a583f18ae20f'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670832905.1304
+    'REQUEST_TIME' => 1670832905
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:15:05 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 08:15:05 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/9f86df75_0d93_41e0_837d_a583f18ae20f'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670832905.1304
+    'REQUEST_TIME' => 1670832905
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:15:45 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "watcher". in /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#1 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#2 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#3 /home/rafat/Syarah/CoreSystem/CoreMainApi/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "watcher". in /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#1 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#2 /home/rafat/Syarah/CoreSystem/CoreMainApi/yii(20): yii\base\Application->run()
+#3 {main}
+2022-12-12 08:15:45 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/9f86df75_0d93_41e0_837d_a583f18ae20f'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670832945.3874
+    'REQUEST_TIME' => 1670832945
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:15:45 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 08:15:45 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/9f86df75_0d93_41e0_837d_a583f18ae20f'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670832945.3874
+    'REQUEST_TIME' => 1670832945
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:16:16 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "watcher/index". in /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#1 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#2 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#3 /home/rafat/Syarah/CoreSystem/CoreMainApi/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "watcher/index". in /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#1 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#2 /home/rafat/Syarah/CoreSystem/CoreMainApi/yii(20): yii\base\Application->run()
+#3 {main}
+2022-12-12 08:16:16 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/9f86df75_0d93_41e0_837d_a583f18ae20f'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670832975.9997
+    'REQUEST_TIME' => 1670832975
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher/index'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:16:16 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 08:16:16 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/9f86df75_0d93_41e0_837d_a583f18ae20f'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670832975.9997
+    'REQUEST_TIME' => 1670832975
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher/index'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:18:39 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "hello". in /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#1 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#2 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#3 /home/rafat/Syarah/CoreSystem/CoreMainApi/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "hello". in /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#1 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#2 /home/rafat/Syarah/CoreSystem/CoreMainApi/yii(20): yii\base\Application->run()
+#3 {main}
+2022-12-12 08:18:39 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/9f86df75_0d93_41e0_837d_a583f18ae20f'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670833119.3994
+    'REQUEST_TIME' => 1670833119
+    'argv' => [
+        0 => 'yii'
+        1 => 'hello'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:18:39 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 08:18:39 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/9f86df75_0d93_41e0_837d_a583f18ae20f'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670833119.3994
+    'REQUEST_TIME' => 1670833119
+    'argv' => [
+        0 => 'yii'
+        1 => 'hello'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:18:52 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "hello". in /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#1 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#2 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#3 /home/rafat/Syarah/CoreSystem/CoreMainApi/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "hello". in /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#1 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#2 /home/rafat/Syarah/CoreSystem/CoreMainApi/yii(20): yii\base\Application->run()
+#3 {main}
+2022-12-12 08:18:52 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/9f86df75_0d93_41e0_837d_a583f18ae20f'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670833132.9662
+    'REQUEST_TIME' => 1670833132
+    'argv' => [
+        0 => 'yii'
+        1 => 'hello'
+        2 => '-m=hell'
+    ]
+    'argc' => 3
+]
+2022-12-12 08:18:52 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 08:18:52 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/9f86df75_0d93_41e0_837d_a583f18ae20f'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670833132.9662
+    'REQUEST_TIME' => 1670833132
+    'argv' => [
+        0 => 'yii'
+        1 => 'hello'
+        2 => '-m=hell'
+    ]
+    'argc' => 3
+]
+2022-12-12 08:23:45 [-][-][-][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'app\console\controllers\WatcherController' in file: /home/rafat/Syarah/CoreSystem/CoreMainApi/console/controllers/WatcherController.php. Namespace missing? in /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload()
+#1 [internal function]: spl_autoload_call()
+#2 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Module.php(661): class_exists()
+#3 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Module.php(620): yii\base\Module->createControllerByID()
+#4 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Module.php(546): yii\base\Module->createController()
+#5 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#6 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#7 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#8 /home/rafat/Syarah/CoreSystem/CoreMainApi/yii(20): yii\base\Application->run()
+#9 {main}
+2022-12-12 08:23:45 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/9f86df75_0d93_41e0_837d_a583f18ae20f'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670833425.1269
+    'REQUEST_TIME' => 1670833425
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:23:45 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 08:23:45 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/9f86df75_0d93_41e0_837d_a583f18ae20f'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670833425.1269
+    'REQUEST_TIME' => 1670833425
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:27:52 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 08:27:52 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/9f86df75_0d93_41e0_837d_a583f18ae20f'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670833672.7696
+    'REQUEST_TIME' => 1670833672
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:38:50 [-][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: yii\console\Application::mongodb in /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/di/ServiceLocator.php(77): yii\base\Component->__get()
+#1 /home/rafat/Syarah/CoreSystem/CoreMainApi/commands/WatcherController.php(12): yii\di\ServiceLocator->__get()
+#2 [internal function]: app\commands\WatcherController->actionIndex()
+#3 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#4 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#5 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#6 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#7 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#8 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#9 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#10 /home/rafat/Syarah/CoreSystem/CoreMainApi/yii(20): yii\base\Application->run()
+#11 {main}
+2022-12-12 08:38:50 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670834330.7097
+    'REQUEST_TIME' => 1670834330
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:38:50 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 08:38:50 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670834330.7097
+    'REQUEST_TIME' => 1670834330
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:39:37 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 08:39:37 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670834377.8576
+    'REQUEST_TIME' => 1670834377
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:41:55 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'micro' of non-object in /home/rafat/Syarah/CoreSystem/CoreMainApi/commands/WatcherController.php:22
+Stack trace:
+#0 /home/rafat/Syarah/CoreSystem/CoreMainApi/commands/WatcherController.php(22): yii\base\ErrorHandler->handleError()
+#1 [internal function]: app\commands\WatcherController->actionIndex()
+#2 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#5 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#6 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#7 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#8 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#9 /home/rafat/Syarah/CoreSystem/CoreMainApi/yii(20): yii\base\Application->run()
+#10 {main}
+2022-12-12 08:41:55 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670834515.8474
+    'REQUEST_TIME' => 1670834515
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:41:55 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 08:41:55 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670834515.8474
+    'REQUEST_TIME' => 1670834515
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:42:27 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Array to string conversion in /home/rafat/Syarah/CoreSystem/CoreMainApi/commands/WatcherController.php:22
+Stack trace:
+#0 /home/rafat/Syarah/CoreSystem/CoreMainApi/commands/WatcherController.php(22): yii\base\ErrorHandler->handleError()
+#1 [internal function]: app\commands\WatcherController->actionIndex()
+#2 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#5 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#6 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#7 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#8 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#9 /home/rafat/Syarah/CoreSystem/CoreMainApi/yii(20): yii\base\Application->run()
+#10 {main}
+2022-12-12 08:42:27 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670834547.4031
+    'REQUEST_TIME' => 1670834547
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:42:27 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 08:42:27 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670834547.4031
+    'REQUEST_TIME' => 1670834547
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:42:45 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 08:42:45 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670834565.4319
+    'REQUEST_TIME' => 1670834565
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:43:11 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 08:43:11 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670834591.3348
+    'REQUEST_TIME' => 1670834591
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:46:14 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: key in /home/rafat/Syarah/CoreSystem/CoreMainApi/commands/WatcherController.php:20
+Stack trace:
+#0 /home/rafat/Syarah/CoreSystem/CoreMainApi/commands/WatcherController.php(20): yii\base\ErrorHandler->handleError()
+#1 [internal function]: app\commands\WatcherController->actionIndex()
+#2 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#5 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#6 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#7 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#8 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#9 /home/rafat/Syarah/CoreSystem/CoreMainApi/yii(20): yii\base\Application->run()
+#10 {main}
+2022-12-12 08:46:14 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670834774.0326
+    'REQUEST_TIME' => 1670834774
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:46:14 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 08:46:14 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670834774.0326
+    'REQUEST_TIME' => 1670834774
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:48:48 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: key in /home/rafat/Syarah/CoreSystem/CoreMainApi/commands/WatcherController.php:21
+Stack trace:
+#0 /home/rafat/Syarah/CoreSystem/CoreMainApi/commands/WatcherController.php(21): yii\base\ErrorHandler->handleError()
+#1 [internal function]: app\commands\WatcherController->actionIndex()
+#2 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#5 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#6 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#7 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#8 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#9 /home/rafat/Syarah/CoreSystem/CoreMainApi/yii(20): yii\base\Application->run()
+#10 {main}
+2022-12-12 08:48:48 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670834928.5551
+    'REQUEST_TIME' => 1670834928
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:48:48 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 08:48:48 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670834928.5551
+    'REQUEST_TIME' => 1670834928
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:49:53 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 08:49:53 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670834993.8138
+    'REQUEST_TIME' => 1670834993
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 08:53:33 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 08:53:33 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670835213.6659
+    'REQUEST_TIME' => 1670835213
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 09:13:06 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 09:13:06 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670836386.6916
+    'REQUEST_TIME' => 1670836386
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 09:13:53 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 09:13:53 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670836433.671
+    'REQUEST_TIME' => 1670836433
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 09:14:09 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 09:14:09 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670836449.5983
+    'REQUEST_TIME' => 1670836449
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 09:17:47 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 09:17:47 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670836667.6873
+    'REQUEST_TIME' => 1670836667
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 09:18:46 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 09:18:46 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670836726.5422
+    'REQUEST_TIME' => 1670836726
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 09:26:39 [-][-][-][error][Error] Error: Call to a member function save() on array in /home/rafat/Syarah/CoreSystem/CoreMainApi/commands/WatcherController.php:25
+Stack trace:
+#0 [internal function]: app\commands\WatcherController->actionIndex()
+#1 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#2 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#3 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Controller.php(180): yii\base\Controller->runAction()
+#4 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#5 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#6 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#7 /home/rafat/Syarah/CoreSystem/CoreMainApi/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#8 /home/rafat/Syarah/CoreSystem/CoreMainApi/yii(20): yii\base\Application->run()
+#9 {main}
+2022-12-12 09:26:39 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670837199.0068
+    'REQUEST_TIME' => 1670837199
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 09:26:39 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 09:26:39 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670837199.0068
+    'REQUEST_TIME' => 1670837199
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
+2022-12-12 09:41:16 [-][-][-][error][yii\base\ErrorException:32] yii\base\ErrorException: Module 'imagick' already loaded in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-12-12 09:41:15 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/rafat-syarah:@/tmp/.ICE-unix/3216,unix/rafat-syarah:/tmp/.ICE-unix/3216'
+    'QT_ACCESSIBILITY' => '1'
+    'COLORTERM' => 'truecolor'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-ubuntu:/etc/xdg'
+    'XDG_MENU_PREFIX' => 'gnome-'
+    'GNOME_DESKTOP_SESSION_ID' => 'this-is-deprecated'
+    'MANDATORY_PATH' => '/usr/share/gconf/ubuntu.mandatory.path'
+    'LC_ADDRESS' => 'ar_JO.UTF-8'
+    'GNOME_SHELL_SESSION_MODE' => 'ubuntu'
+    'LC_NAME' => 'ar_JO.UTF-8'
+    'SSH_AUTH_SOCK' => '/run/user/1000/keyring/ssh'
+    'XMODIFIERS' => '@im=ibus'
+    'DESKTOP_SESSION' => 'ubuntu'
+    'LC_MONETARY' => 'ar_JO.UTF-8'
+    'SSH_AGENT_PID' => '3178'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'DBUS_STARTER_BUS_TYPE' => 'session'
+    'ZEITGEIST_DATA_PATH' => '/home/rafat/.local/share/zeitgeist'
+    'PWD' => '/home/rafat/Syarah/CoreSystem/CoreMainApi'
+    'LOGNAME' => 'rafat'
+    'XDG_SESSION_DESKTOP' => 'ubuntu'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/run/user/1000/gdm/Xauthority'
+    'WINDOWPATH' => '2'
+    'HOME' => '/home/rafat'
+    'USERNAME' => 'rafat'
+    'IM_CONFIG_PHASE' => '1'
+    'LC_PAPER' => 'ar_JO.UTF-8'
+    'LANG' => 'en_US.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'ubuntu:GNOME'
+    'VTE_VERSION' => '6003'
+    'GNOME_TERMINAL_SCREEN' => '/org/gnome/Terminal/screen/c10d40a5_2f97_4122_b8dd_12c78f34a75a'
+    'INVOCATION_ID' => '24350ccc00814405bcb2a44b5291fce8'
+    'MANAGERPID' => '2989'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LC_IDENTIFICATION' => 'ar_JO.UTF-8'
+    'DEFAULTS_PATH' => '/usr/share/gconf/ubuntu.default.path'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'LIBVIRT_DEFAULT_URI' => 'qemu:///system'
+    'USER' => 'rafat'
+    'GNOME_TERMINAL_SERVICE' => ':1.232'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'LC_TELEPHONE' => 'ar_JO.UTF-8'
+    'QT_IM_MODULE' => 'ibus'
+    'LC_MEASUREMENT' => 'ar_JO.UTF-8'
+    'DBUS_STARTER_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'LC_TIME' => 'ar_JO.UTF-8'
+    'JOURNAL_STREAM' => '8:68006'
+    'XDG_DATA_DIRS' => '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+    'PATH' => '/home/rafat/bin:/opt/kafka_2.13-3.2.0/bin:/home/rafat/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafat/.dotnet/tools:/opt/confluent-7.2.2/bin'
+    'CONFLUENT_HOME' => '/opt/confluent-7.2.2'
+    'GDMSESSION' => 'ubuntu'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus,guid=1bd83e9f3e4dda07aec194336396cb08'
+    'LC_NUMERIC' => 'ar_JO.UTF-8'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1670838075.9909
+    'REQUEST_TIME' => 1670838075
+    'argv' => [
+        0 => 'yii'
+        1 => 'watcher'
+    ]
+    'argc' => 2
+]
