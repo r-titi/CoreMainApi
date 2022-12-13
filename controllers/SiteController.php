@@ -13,12 +13,16 @@ use yii\rest\Controller;
 class SiteController extends Controller
 {    
     public $mapping = [
-        'send_email' => [
-            'micro' => 'http://localhost:8888/site/send-email',
+        'change_post_status' => [
+            'events' => [
+                'send_email', 'send_sms'
+            ],
             'msg' => ''
         ],
-        'send_sms' => [
-            'micro' => 'http://localhost:8888/site/send-sms',
+        'order_completed' => [
+            'events' => [
+                'send_email', 'send_sms'
+            ],
             'msg' => ''
         ],
     ];
@@ -32,10 +36,11 @@ class SiteController extends Controller
         $request = Yii::$app->request;
 
         $event = $request->post('event');
+        $micro = $request->post('micro');
         $key = $request->post('key');
         $value = $request->post('value');
         $logsCollection = Yii::$app->mongodb->getCollection('core_api_logs');
-        $eventsCollection = Yii::$app->mongodb->getCollection('core_api_events');
+        $eventCollection = Yii::$app->mongodb->getCollection($event . '_' . $micro);
         $dateTime = new DateTime(date('Y-m-d H:i:s'), new DateTimeZone('UTC'));
         $timstamp = $dateTime->getTimestamp();
 
@@ -53,9 +58,6 @@ class SiteController extends Controller
                 'message' => 'this event isnt exist'
             ];
         }
-        
-        $output=null;
-        $retval=null;
 
         $logsCollection->insert([
             'event' => $event, 
@@ -65,9 +67,9 @@ class SiteController extends Controller
             'created_at' => $timstamp
         ]);
 
-        $eventsCollection->insert([
+        $eventCollection->insert([
             'event' => $event, 
-            'micro' => $this->mapping[$event]['micro'],
+            'micro' => $micro,
             'key' => $key, 
             'value' => $value, 
             'status' => 'pending',
@@ -77,9 +79,6 @@ class SiteController extends Controller
         return [
             'status' => Status::STATUS_OK,
             'message' => $this->mapping[$event]['msg'],
-            // 'curl' => exec("curl -d '{\"key\":\"$key\", \"value\":\"$value\"}' -H \"Content-Type: application/json\" -X POST " . $this->mapping[$event]['micro']),
-            // 'data' => "Returned with status $retval",
-            // 'output' => $output
         ];
     }
 }
