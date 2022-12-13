@@ -2,49 +2,53 @@
 
 namespace app\controllers;
 
-use app\models\MongoLog;
+use app\models\Constants;
 use app\models\Status;
 use DateTime;
 use DateTimeZone;
-use SplQueue;
 use Yii;
 use yii\rest\Controller;
 
 class SiteController extends Controller
-{    
-    public $mapping = [
-        'change_post_status' => [
-            'events' => [
-                'send_email', 'send_sms'
-            ],
-            'msg' => ''
-        ],
-        'order_completed' => [
-            'events' => [
-                'send_email', 'send_sms'
-            ],
-            'msg' => ''
-        ],
-    ];
-
-    protected function verbs()
-    {
-    }
-
+{
     public function actionIndex()
     {
         $request = Yii::$app->request;
 
         $event = $request->post('event');
-        $micro = $request->post('micro');
         $key = $request->post('key');
         $value = $request->post('value');
+
+        $validationMsg = [];
+        if(empty($event)) {
+            $validationMsg[] = 'Please send event';
+        }
+
+        if(empty($key)) {
+            $validationMsg[] = 'Please send key';
+        }
+
+        if(empty($value)) {
+            $validationMsg[] = 'Please send value';
+        }
+
+        if(empty($event) || empty($key) || empty($value)) {
+            return [
+                'status' => Status::STATUS_BAD_REQUEST,
+                'message' => implode(' and ', $validationMsg)
+            ];
+        }
+
+        $eventMapping = (new \yii\db\Query())
+        ->select(['id', 'event', 'micro'])
+        ->from('mapping')
+        ->where(['event' => $event])
+        ->all();
+
         $logsCollection = Yii::$app->mongodb->getCollection('core_api_logs');
-        $eventCollection = Yii::$app->mongodb->getCollection($event . '_' . $micro);
         $dateTime = new DateTime(date('Y-m-d H:i:s'), new DateTimeZone('UTC'));
         $timstamp = $dateTime->getTimestamp();
-
-        if(!isset($this->mapping[$event])) {
+        if(count($eventMapping) == 0) {
             $logsCollection->insert([
                 'event' => $event,
                 'key' => $key, 
@@ -59,6 +63,19 @@ class SiteController extends Controller
             ];
         }
 
+        foreach($eventMapping as $mapping) {
+            $eventCollection = Yii::$app->mongodb->getCollection($mapping['event'] . '_' . $mapping['micro']);
+
+            $eventCollection->insert([
+                'event' => $event, 
+                'micro' => $mapping['micro'],
+                'key' => $key, 
+                'value' => $value, 
+                'status' => Constants::STATUS_PENDING,
+                'created_at' => $timstamp
+            ]);
+        }
+
         $logsCollection->insert([
             'event' => $event, 
             'key' => $key, 
@@ -67,18 +84,8 @@ class SiteController extends Controller
             'created_at' => $timstamp
         ]);
 
-        $eventCollection->insert([
-            'event' => $event, 
-            'micro' => $micro,
-            'key' => $key, 
-            'value' => $value, 
-            'status' => 'pending',
-            'created_at' => $timstamp
-        ]);
-
         return [
             'status' => Status::STATUS_OK,
-            'message' => $this->mapping[$event]['msg'],
         ];
     }
 }

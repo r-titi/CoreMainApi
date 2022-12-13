@@ -16,11 +16,6 @@ return [
     'id' => 'micro-app',
     // the basePath of the application will be the `micro-app` directory
     'basePath' => dirname(__DIR__),
-    'modules' => [
-        'v1' => [
-            'class' => 'app\modules\v1\v1',
-        ],   
-    ],
     // this is where the application will find all controllers
     'controllerNamespace' => 'app\controllers',
     // set an alias to enable autoloading of classes from the 'micro' namespace
